@@ -5,7 +5,7 @@ title: About me
 ---
 <!--StartFragment-->
 
-![](https://nicolas-robotics-portfolio.netlify.app/static/b4b6fc4ee8f919d73626f2dcc80bfc59/73496/nico.jpg)
+![](/assets/nico.jpg)
 
 Hey I'm Nico, a 27 y.o. French-American robotics engineer freshly graduated from UT Austin. I crave to see more robots assisting humans and I believe there is only one way I can help with this: by helping bringing robots to market. Very curious by nature, I feel at ease with both hardware and simulations and am heavy on the famous ROS/c++/python combo, please feel free to shoot me an email if you're getting curious too!
 
