@@ -10,8 +10,6 @@ featuredImage: /assets/smart_pen.png
 
 # Smart Pen – Numerize your 3D handwriting
 
-![Smart Pen of the magic science](/assets/smart_pen.png)
-
 ## Why is it smart ?
 
 The pen I am going to show you doesn’t just copy what you write, it is able to recognize, to “understand” digits and letters written in the air and to write it in a word file. You will need a numeric software such as Matlab, an arduino board, an IMU and some pen-shaped material.
