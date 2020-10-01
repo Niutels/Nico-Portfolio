@@ -2,7 +2,7 @@
 template: blog-post
 title: Obstacle detection
 slug: /kinect
-date: 2020-09-30 20:17
+date: 2015-10-17 20:17
 description: simple dynamic obstacle detection
 featuredImage: /assets/kinect.jpg
 ---
