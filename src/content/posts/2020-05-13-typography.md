@@ -1,9 +1,9 @@
 ---
 template: blog-post
-title: Typography
-slug: /typography
-date: 2020-05-13 09:19
-description: metaphorically make a deal with the devil
+title: Smart Pen
+slug: /smartpen
+date: 2020-09-30 21:15
+description: A pen which can digitize your handwriting in 3d
 featuredImage: /assets/smart_pen.png
 ---
 <!--StartFragment-->
