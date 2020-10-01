@@ -100,7 +100,8 @@ Use in assembly​ :
 * Cylindrical holes’ axis should be as perpendicular to the printing surface as possible
 * 3d printers do print layer one above the other, so the main mechanical weakness of a 3d printed part is between each printed plane (avoid stressing the part in the plane parallel to the printing surface or adjust the density)
 * Remember to calibrate your printer every now and then to avoid accidents
-* ![Robocup](https://nicolas-robotics-portfolio.netlify.app/static/28e49b90acd2c34f67a0437ec66ea6d6/6515c/paint_19.jpg)
+
+  ![Robocup](https://nicolas-robotics-portfolio.netlify.app/static/28e49b90acd2c34f67a0437ec66ea6d6/6515c/paint_19.jpg)
 
 ## Preliminary assembly and testing
 
@@ -111,13 +112,14 @@ For the first test the arm was not moved, only the gripper was activated to test
 ## Solution for including cleaning material
 
 * Add flat top surface to previously designed parts
+
+  ![](/assets/paint_21.jpg)
 * Add gripping components with various interchangeable frictions plates for different cleaning materials to grip to
 
   ![Robocup](https://nicolas-robotics-portfolio.netlify.app/static/23d74658761bab990a8555e1740ae3e5/939e2/paint_22.jpg)
 * Print and test
 
-
-* ![Robocup](https://nicolas-robotics-portfolio.netlify.app/static/0e755341ed716824b72d933c0fc4fc13/cffaf/paint_23.jpg)
+  ![Robocup](https://nicolas-robotics-portfolio.netlify.app/static/0e755341ed716824b72d933c0fc4fc13/cffaf/paint_23.jpg)
 
 ## Simulation with PnC:
 
@@ -128,7 +130,5 @@ For the first test the arm was not moved, only the gripper was activated to test
   * Duration specification
 
   ![Robocup](https://nicolas-robotics-portfolio.netlify.app/static/8e62dcad43f5143824c343ba8e7477ed/2b0f9/paint_24.jpg)
-
-
 
 <!--EndFragment-->
