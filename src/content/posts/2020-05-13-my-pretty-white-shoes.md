@@ -4,13 +4,15 @@ title: RoboCup
 slug: /robocup
 date: 2020-09-30 22:46
 description: International Robotics Competition
-featuredImage: /assets/hsr.jpg
+featuredImage: /assets/nico_robocup.jpg
 ---
 <!--StartFragment-->
 
 # RoboCup 2017 – Team project
 
-![](/assets/nico_robocup.jpg)
+
+
+![](/assets/image1.jpg)
 
 #### A big robotics competition
 
@@ -19,8 +21,6 @@ Initially solely standing for "Robot Soccer World Cup" in 1996, the RoboCup is b
 #### Some numbers
 
 In 2017, the competition took place in Nagoya, Japan, where 50 countries were represented and a total of 500 participants were distributed between the existing leagues, each competing for first place in their own field! Below is a proud picture of our team, UT Austin Villa!
-
-![](/assets/image1.jpg)
 
 #### Outcome
 
