@@ -4,7 +4,7 @@ title: Designing a Series Elastic Actuator
 slug: /sea
 date: 2020-09-30 20:41
 description: design of an SEA
-featuredImage: /assets/sea_system.jpg
+featuredImage: /assets/pulley-system.jpg
 ---
 <!--StartFragment-->
 
