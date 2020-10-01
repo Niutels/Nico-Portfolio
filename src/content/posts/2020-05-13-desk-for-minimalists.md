@@ -4,7 +4,7 @@ title: Iron Man is happening
 slug: /ironman
 date: 2020-09-30 22:39
 description: sdasd
-featuredImage: ""
+featuredImage: /assets/exo.png
 ---
 <!--StartFragment-->
 
