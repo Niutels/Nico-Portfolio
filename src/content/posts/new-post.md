@@ -2,7 +2,7 @@
 template: blog-post
 title: Designing a Series Elastic Actuator
 slug: /sea
-date: 2020-09-30 20:41
+date: 2015-05-24 20:41
 description: design of an SEA
 featuredImage: /assets/pulley-system.jpg
 ---
