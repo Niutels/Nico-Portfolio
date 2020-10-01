@@ -4,7 +4,7 @@ title: AI
 slug: /machine_learning
 date: 2020-09-30 20:24
 description: machine learning class projects
-featuredImage: /assets/president-fenves-and-dreamer.jpg
+featuredImage: /assets/dreamer.jpg
 ---
 <!--StartFragment-->
 
