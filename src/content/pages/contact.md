@@ -5,7 +5,7 @@ title: Contact
 ---
 <!--StartFragment-->
 
-![](https://nicolas-robotics-portfolio.netlify.app/static/f7d2df4bdfeeb0dd640b58f2795b3b47/da526/background.png)
+![](/assets/background.png)
 
 I love robots and I'd love to talk, let's grab this virtual coffee!
 
