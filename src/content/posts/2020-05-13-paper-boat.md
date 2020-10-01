@@ -4,7 +4,7 @@ title: Painting Robot
 slug: /paintingrobot
 date: 2020-09-30 23:03
 description: Painting with a robot
-featuredImage: /assets/paint_24.jpg
+featuredImage: /assets/demonstration.png
 ---
 <!--StartFragment-->
 
