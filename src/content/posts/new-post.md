@@ -16,8 +16,6 @@ As I first wanted to involve myself into robotics, I found an opportunity to stu
 
 ![Series-Elastic Actuator design](/assets/sea-principle.jpg)
 
-![Series-Elastic Actuator design](/assets/pulley-system.jpg)
-
 The worldwide industry never fails to show us how advanced robotics has become. While our eyes can barely follow up with a robot accomplishing its manufacturing operations, adding elastic components would mostly diminish the all system efficiency by decreasing its precision and repeatability.
 
 ## A new compromise to make
