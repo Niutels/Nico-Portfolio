@@ -8,4 +8,8 @@ cta:
   ctaText: Know more
   ctaLink: /about
 ---
-## Welcome! Below are some awesome robotics projects, have fun reading and please don't hesitate to contact me!
+<!--StartFragment-->
+
+Welcome! Below are some awesome robotics projects, have fun reading and please don't hesitate to contact me!
+
+<!--EndFragment-->
