@@ -7,6 +7,6 @@ title: Contact
 
 ![](/assets/background.png)
 
-I love robots and I'd love to talk, let's grab this virtual coffee!
+I love robots and I'd love to talk, let's grab this virtual coffee!!
 
 <!--EndFragment-->
