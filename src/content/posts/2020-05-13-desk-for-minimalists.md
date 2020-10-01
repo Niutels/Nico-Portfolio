@@ -1,53 +1,41 @@
 ---
 template: blog-post
-title: Desk for minimalists
-slug: /minimalists-desk
-date: 2020-05-13 12:46
+title: Iron Man is happening
+slug: /ironman
+date: 2020-09-30 22:39
 description: sdasd
-featuredImage: /assets/bench-accounting-nvzvopqw0gc-unsplash.jpg
+featuredImage: ""
 ---
-Uh, is the puppy mechanical in any way? Maybe I love you so much I love you no matter who you are pretending to be. If rubbin' frozen dirt in your crotch is wrong, hey I don't wanna be right. I found what I need. And it's not friends, it's things.
+<!--StartFragment-->
 
-That's the ONLY thing about being a slave. OK, if everyone's finished being stupid. Bender, we're trying our best. Fry! Stay back! He's too powerful! I just told you! **You've killed me!** *And yet you haven't said what I told you to say!* How can any of us trust you?
+# How real is IronMan?
 
-![Royal Mail](/assets/royal-mail-unsplash.jpg "Royal Mail from Unsplash")
+The first time I worked on an exoskeleton – a robotics suits designed to enhance human capabilities by alleviating their loads or making them stronger – I immediately pictured the Iron Man coming to life. Reality is we’re not there yet, but we’re also clearly not as far as you may think!
 
-## It doesn't look so shiny to me.
+## 3 key challenges
 
-No! I want to live! There are still too many things I don't own! It doesn't look so shiny to me. I'm just glad my fat, ugly mama isn't alive to see this day. Soon enough. I'm sure those windmills will keep them cool.
+* In a full-body exoskeleton, the human operator is fully “contained” inside the robot. While this is also a “handy” safety feature for the operator (e.g. his feet and hands should not touch the ground or walls, the point is for the robot to carry the loads for the human, not the other way around!), the mechanical design of a resilient robotics suit able to contain a human without constraining his motion is obviously a really tricky feat to accomplish.
+* Now it would be great if the suit could do more than acting as a dead weight right? What we really want is for the suit to actively follow the human over his motion. As for most robotics systems, we will need three components:
 
-![]()
+  * a configuration of sensors to help us guess what the human operator is trying to do
+  * a set of actuators to put the exoskeleton in motion accordingly
+  * a power source to allow for all of this to happen.
 
-1. Guards! Bring me the forms I need to fill out to have her taken away!
-2. Have you ever tried just turning off the TV, sitting down with your children, and hitting them?
-3. You, a bobsleder!? That I'd like to see!
+  This is particularly difficult as humans have numerous and complex mobility features while each actuator can really provide motion in only one direction. It takes compromises between the bulkiness of the suit and the amount of power we need to provide to each joint.
+* Finally, the trickiest of them all might very well be the design of a controller’s framework. It can be defined as the structure optimizing for what we want, following the human’s motion, based on what we know, mostly the sensors data, using what we can control, the actuators. This type of study is found in the field of control theory and we will go in slightly more details in the following paragraphs. Notice that I didn’t elaborate much on the sensors in the previous paragraph, this is because as of today there is no best compromise regarding the sensors configuration, what type of sensors to use and how to use them best, it really is about which control strategy the engineers will choose to go for and how much money they can spend on monitoring the human.
 
-### Daylight and everything.
+In all existing designs of full-body exoskeletons, solutions to the challenges described above are heavily influenced by the corresponding team of engineers’ expertise/background as exoskeletons are yet so uncommon that a research-oriented design approach is still meaningful.
 
-A true inspiration for the children. Anyone who laughs is a communist! Can I use the gun? Oh, how I wish I could believe or understand that! There's only one reasonable course of action now: kill Flexo!
+## 3 key control strategies
 
-* Fry! Stay back! He's too powerful!
-* Look, last night was a mistake.
-* Please, Don-Bot… look into your hard drive, and open your mercy file!
+Control theory is what brings robots to life, its extent is very wide but in essence it allows us to move our robots safely and accurately. We thus design control strategies based on our understanding of it, and below is a list of key elements used nowadays in exoskeleton robotsic.
 
-And I'm his friend Jesus. One hundred dollars. There, now he's trapped in a book I wrote: a crummy world of plot holes and spelling errors! No! The cat shelter's on to me.
+* Gravity compensation: as its name suggests, this approach aims at estimating the forces gravity applies on the exoskeleton and to compensate for them, resulting in the robotics suit being able to stand up by itself! It is called a model-based approach since it relies on the knowledge of the robot’s different components position, shape and mass. Model based approach are both fantastically efficient but fragile. What is great about it is its accuracy, provided that the model is right you won’t ever have to worry about gravity anymore. What doesn’t make it ideal is that we don’t always know the model very accurately, either because the bodies position mass and shape are not perfectly well known either because they might change over time unnoticed and the slightest model mistake can make the robot fall easily.
+* Force amplification: making the human operator stronger. This can initially be defined as a model-free approach if for example we want to amplify the operator’s strength N times, we can simply use force sensors to read how much the operator is pushing and request the robot to provide N-1 times whatever the reading was. The resulting effort from the operator’s side would be 1/N of the robotics suits’ effort and this control strategy would not require any knowledge of a model to work. Experiments have shown however that such a control strategy can perform poorly when the human model is overlooked, thus suggesting to model the human to improve performance.
+* Whole-Body Control (WBC) Framework: WBC is a well-recognized control strategy which has been implemented in the most successful humanoid robots of these past few years. It consists in adapting the robot’s dynamics in function of the importance of the tasks he is trying to achieve. Let’s take the example of such a robot standing on its feet, and let’s say that we want him to accomplish 3 tasks: balance its center of mass to avoid falling, raise an arm to say hi and go back to its charging station. We could quickly define a hierarchy between these tasks and rank them. First, we don’t want the robot to fall and get damaged so we may want to prioritize balancing above all, then if the robot runs out of battery it won’t be useful anymore and could get damaged too, so this task would be placed second, and finally raising the arm would be 3rd, the last task to prioritize. Now what the controller is going to do is look into how to accomplish the first task as best as it can, it will balance as much as possible. While balancing, it will check for the possibility of accomplishing the second task while still achieving the first, heading toward the charging station while keeping balance. We say that we are looking for a solution to the second task in the null space of the first: if the robot can go the charging station without interfering with its balance, the said null space will allow for the second task to happen withing it, if not it won’t. Similarly, the robot will try to raise an arm while balancing and heading toward the charging station so as to not prevent the given first and second tasks from happening.
 
-Fry! Quit doing the right thing, you jerk! I'm sure those windmills will keep them cool. I'm Santa Claus! Leela's gonna kill me. Then we'll go with that data file!
+## But does it work?
 
-That's right, baby. I ain't your loverboy Flexo, the guy you love so much. You even love anyone pretending to be him! Bite my shiny metal ass. Tell them I hate them. Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "Put on your good vestments."
+Short answer: yes, if you don’t move too fast on a horizontal surface, the SAGIT exoskeleton is a functionnal proof of concept designed by Apptronik's talented engineers whom I feel lucky to have been working with.
 
-That's a popular name today. Little "e", big "B"? Hey, whatcha watching? A sexy mistake. A true inspiration for the children. Shut up and get to the point!
-
-Ven ve voke up, ve had zese wodies. Oh, all right, I am. But if anything happens to me, tell them I died robbing some old man. So, how 'bout them Knicks? Oh Leela! You're the only person I could turn to; you're the only person who ever loved me.
-
-Shut up and get to the point! Take me to your leader! I can explain. It's very valuable. You guys realize you live in a sewer, right?
-
-Robot 1-X, save my friends! And Zoidberg! Oh Leela! You're the only person I could turn to; you're the only person who ever loved me. I guess because my parents keep telling me to be more ladylike. As though!
-
-I daresay that Fry has discovered the smelliest object in the known universe! Oh right. I forgot about the battle. Oh dear! She's stuck in an infinite loop, and he's an idiot! Well, that's love for you.
-
-You wouldn't. Ask anyway! Is today's hectic lifestyle making you tense and impatient? Ven ve voke up, ve had zese wodies. Doomsday device? Ah, now the ball's in Farnsworth's court!
-
-Fatal. Maybe I love you so much I love you no matter who you are pretending to be. Really?! You can see how I lived before I met you. Alright, let's mafia things up a bit. Joey, burn down the ship. Clamps, burn down the crew.
-
-Enough about your promiscuous mother, Hermes! We have bigger problems. Bender, being God isn't easy. If you do too much, people get dependent on you, and if you do nothing, they lose hope. You have to use a light touch. Like a safecracker, or a pickpocket.
+<https://www.youtube.com/watch?v=qvLzugCIdJs&feature=emb_title&ab_channel=Apptronik>
