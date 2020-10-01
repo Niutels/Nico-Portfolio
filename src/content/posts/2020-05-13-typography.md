@@ -10,7 +10,7 @@ featuredImage: /assets/smart_pen.png
 
 # Smart Pen – Numerize your 3D handwriting
 
-![Smart Pen of the magic science](https://nicolas-robotics-portfolio.netlify.app/static/e0c3d4685a807504b92b563c6f535bbc/ec1a3/smart_pen.png)
+![Smart Pen of the magic science](/assets/smart_pen.png)
 
 ## Why is it smart ?
 
@@ -24,7 +24,7 @@ We first need to teach to the computer the symbols we want it to recognize, put 
 * The arduino reads it, regulates it to get a fixed time base before sending the results to your computer.
 * Matlab allows you to process it, to get a clean signal and associate it with a symbol.
 
-![schema](https://nicolas-robotics-portfolio.netlify.app/static/3a1cbed5771e9cb441c14c1766ccb437/60290/pen_schema.png)
+![schema](/assets/pen_schema.png)
 
 ## Why linear acceleration and angular velocity ?
 
@@ -42,8 +42,6 @@ The acceleration signal used to teach the computer how to recognize a symbol nee
 
 Now, to recognize what you are going to write we will use a Dynamic Time Warping algorithm which is simply going to compare the signal resulting from your writing with the one you associated with a symbol previously. If those two are similar enough, it will finally be written in a word file.A more extensive report and useful figures can be found in the link below:
 
-[Smart pen report](https://nicolas-robotics-portfolio.netlify.app/static/7550be49d6549bbc3f50a37e05527250/PJE.pdf)
+[Smart pen report](https://nicolas-robotics-portfolio-temp.netlify.app/static/7550be49d6549bbc3f50a37e05527250/PJE.pdf)
 
-
-
-<!--EndFragment-->
+[](https://nicolas-robotics-portfolio-temp.netlify.app/static/7550be49d6549bbc3f50a37e05527250/PJE.pdf)<!--EndFragment-->
