@@ -2,7 +2,7 @@
 template: blog-post
 title: RoboCup
 slug: /robocup
-date: 2020-09-30 22:46
+date: 2017-08-30 15:26
 description: International Robotics Competition
 featuredImage: /assets/nico_robocup.jpg
 ---
