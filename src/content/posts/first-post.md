@@ -1,53 +1,45 @@
 ---
 template: blog-post
-title: Book Shelf
-slug: /book-shelf
-date: 2019-07-10T00:00:00.000Z
-description: sdasd
-featuredImage: /assets/avery-klein-c_drtsnboqa-unsplash.jpg
+title: Autonomously Guided Vehicle
+slug: /AGV
+date: 2020-09-30 20:35
+description: Controlling an AGV
+featuredImage: /assets/akeomotion.jpg
 ---
-Uh, is the puppy mechanical in any way? Maybe I love you so much I love you no matter who you are pretending to be. If rubbin' frozen dirt in your crotch is wrong, hey I don't wanna be right. I found what I need. And it's not friends, it's things.
+<!--StartFragment-->
 
-That's the ONLY thing about being a slave. OK, if everyone's finished being stupid. Bender, we're trying our best. Fry! Stay back! He's too powerful! I just told you! **You've killed me!** *And yet you haven't said what I told you to say!* How can any of us trust you?
+# Line tracking for a moving robot
 
-![Royal Mail](/assets/royal-mail-unsplash.jpg "Royal Mail from Unsplash")
+![AGV](https://nicolas-robotics-portfolio.netlify.app/static/40734fc0c94fd13ac4fd18c02d4e40f2/e91af/akeomotion.jpg)
 
-## It doesn't look so shiny to me.
+## Why line tracking ?
 
-No! I want to live! There are still too many things I don't own! It doesn't look so shiny to me. I'm just glad my fat, ugly mama isn't alive to see this day. Soon enough. I'm sure those windmills will keep them cool.
+Here we are going to learn how to use a camera to follow a line drawn on the floor. Let’s say that you want to conceive an autonomous robot but you’re not ready to use mapping technologies to guide it yet. Then line tracking would be a nice and simple way to test your robot. To track lines, you will need a camera and a numeric software such as Matlab or Labview.
 
-![]()
+## See the line
 
-1. Guards! Bring me the forms I need to fill out to have her taken away!
-2. Have you ever tried just turning off the TV, sitting down with your children, and hitting them?
-3. You, a bobsleder!? That I'd like to see!
+* Step 1 : Get a picture
 
-### Daylight and everything.
+  ![AGV](https://nicolas-robotics-portfolio.netlify.app/static/30f7f919ffb269598e6897621f56a2c7/f1f45/LT1.png)
+* Step 2 : Get access to the RGB data
 
-A true inspiration for the children. Anyone who laughs is a communist! Can I use the gun? Oh, how I wish I could believe or understand that! There's only one reasonable course of action now: kill Flexo!
+  ![AGV](https://nicolas-robotics-portfolio.netlify.app/static/e79900f0ff016feb069d41ac81abf13e/c5862/LT2.png)
+* Step 3 : Get the coordinates of the pixels
 
-* Fry! Stay back! He's too powerful!
-* Look, last night was a mistake.
-* Please, Don-Bot… look into your hard drive, and open your mercy file!
+  ![AGV](https://nicolas-robotics-portfolio.netlify.app/static/9f221ca98f91741256bf879115f919d8/f1d7f/LT3.png)
 
-And I'm his friend Jesus. One hundred dollars. There, now he's trapped in a book I wrote: a crummy world of plot holes and spelling errors! No! The cat shelter's on to me.
+  ![AGV](https://nicolas-robotics-portfolio.netlify.app/static/8bdb0db124330b13cbcebd22e3a28f7a/4d5b7/LT4.png)
+* Step 4 : See the line
 
-Fry! Quit doing the right thing, you jerk! I'm sure those windmills will keep them cool. I'm Santa Claus! Leela's gonna kill me. Then we'll go with that data file!
+  ![AGV](https://nicolas-robotics-portfolio.netlify.app/static/694cf201af3015dcb3701db020649fc4/97afc/LT5.png)
+* ## Track the line
+* Step 1 : Define what you are looking for
+* Step 2 : Implement automatic control
 
-That's right, baby. I ain't your loverboy Flexo, the guy you love so much. You even love anyone pretending to be him! Bite my shiny metal ass. Tell them I hate them. Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "Put on your good vestments."
+Depending on your robot/vehicle, you will need to implement different automatic controls to monitor your motors. For “classical” applications such as wheeled robots you can configure it at low speed by implementing a Full State Feedback if you can model your system and get the following State space equations. The LQ controller fits particularly well here.Measurement equation Where x is a state vector, y is the output vector and u is the control vector. In this case y represents our motors inputs, u includes D and α, and x may correspond to y and other variables you want to estimate in your model. However if you are not familiar with State Feedbacks, you can also implement a simple feedback loop with an adjusted proportional gain, it will already work just fine but you will still have to regulate the weighting between the distance factor D and the orientation factor α depending on your system performances against it. Here is an example of a line tracking establishment I achieved at AKEOPLUS:
 
-That's a popular name today. Little "e", big "B"? Hey, whatcha watching? A sexy mistake. A true inspiration for the children. Shut up and get to the point!
+[Akeomotion demo](https://www.youtube.com/embed/htx5c2Kiee0)
 
-Ven ve voke up, ve had zese wodies. Oh, all right, I am. But if anything happens to me, tell them I died robbing some old man. So, how 'bout them Knicks? Oh Leela! You're the only person I could turn to; you're the only person who ever loved me.
 
-Shut up and get to the point! Take me to your leader! I can explain. It's very valuable. You guys realize you live in a sewer, right?
 
-Robot 1-X, save my friends! And Zoidberg! Oh Leela! You're the only person I could turn to; you're the only person who ever loved me. I guess because my parents keep telling me to be more ladylike. As though!
-
-I daresay that Fry has discovered the smelliest object in the known universe! Oh right. I forgot about the battle. Oh dear! She's stuck in an infinite loop, and he's an idiot! Well, that's love for you.
-
-You wouldn't. Ask anyway! Is today's hectic lifestyle making you tense and impatient? Ven ve voke up, ve had zese wodies. Doomsday device? Ah, now the ball's in Farnsworth's court!
-
-Fatal. Maybe I love you so much I love you no matter who you are pretending to be. Really?! You can see how I lived before I met you. Alright, let's mafia things up a bit. Joey, burn down the ship. Clamps, burn down the crew.
-
-Enough about your promiscuous mother, Hermes! We have bigger problems. Bender, being God isn't easy. If you do too much, people get dependent on you, and if you do nothing, they lose hope. You have to use a light touch. Like a safecracker, or a pickpocket.
+<!--EndFragment-->
