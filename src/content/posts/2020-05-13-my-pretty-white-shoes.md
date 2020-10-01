@@ -22,6 +22,8 @@ Initially solely standing for "Robot Soccer World Cup" in 1996, the RoboCup is b
 
 In 2017, the competition took place in Nagoya, Japan, where 50 countries were represented and a total of 500 participants were distributed between the existing leagues, each competing for first place in their own field! Below is a proud picture of our team, UT Austin Villa!
 
+![](/assets/hsr.jpg)
+
 #### Outcome
 
 We finished 3rd place! That was an amazing team effort, loved every second of it!
