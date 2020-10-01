@@ -39,3 +39,5 @@ Control theory is what brings robots to life, its extent is very wide but in ess
 Short answer: yes, if you don’t move too fast on a horizontal surface, the SAGIT exoskeleton is a functionnal proof of concept designed by Apptronik's talented engineers whom I feel lucky to have been working with.
 
 <https://www.youtube.com/watch?v=qvLzugCIdJs&feature=emb_title&ab_channel=Apptronik>
+
+<!--EndFragment-->
