@@ -3,7 +3,7 @@ template: blog-post
 title: Smart Pen
 slug: /smartpen
 date: 2020-09-30 21:15
-description: A pen which can digitize your handwriting in 3d
+description: A pen which can guess what you're handwriting in 3d
 featuredImage: /assets/smart_pen.png
 ---
 <!--StartFragment-->
