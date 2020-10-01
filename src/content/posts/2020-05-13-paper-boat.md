@@ -2,7 +2,7 @@
 template: blog-post
 title: Painting Robot
 slug: /paintingrobot
-date: 2020-09-30 23:03
+date: 2020-09-01 13:03
 description: Painting with a robot
 featuredImage: /assets/demonstration.png
 ---
