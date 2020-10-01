@@ -2,7 +2,7 @@
 template: blog-post
 title: Autonomously Guided Vehicle
 slug: /AGV
-date: 2020-09-30 20:35
+date: 2015-11-21 18:35
 description: Controlling an AGV
 featuredImage: /assets/akeomotion.jpg
 ---
