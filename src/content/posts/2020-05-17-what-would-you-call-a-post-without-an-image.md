@@ -4,7 +4,7 @@ title: Dassault's Poppy Challenge
 slug: /poppy_robot
 date: 2020-09-30 20:31
 description: A Dassault competition for standing humanoid robots
-featuredImage: /assets/poppy.jpg
+featuredImage: /assets/open-source_3d_printed_poppy_humanoid_robot.jpg
 ---
 <!--StartFragment-->
 
