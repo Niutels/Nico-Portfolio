@@ -1,9 +1,9 @@
 ---
 template: blog-post
-title: Character design
-slug: /character-design
-date: 2020-05-23 23:40
-description: How to draw a character
+title: Painting Robot
+slug: /paintingrobot
+date: 2020-09-30 23:03
+description: Painting with a robot
 featuredImage: /assets/paint_24.jpg
 ---
 <!--StartFragment-->
