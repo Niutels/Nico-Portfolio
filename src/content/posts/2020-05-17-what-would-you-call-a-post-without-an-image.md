@@ -10,13 +10,13 @@ featuredImage: /assets/poppy-robot-pendulum.jpg
 
 # Standing humanoïd robot : The Poppy Challenge – Team project
 
-![Poppy robot](https://nicolas-robotics-portfolio.netlify.app/static/94e66e67858bbbd8033fc00b69bde934/a591b/Poppy-robot-pendulum.jpg)
+![Poppy robot](/assets/poppy-robot-pendulum.jpg)
 
 ## What kind of challenge is it ?
 
 The Poppy Challenge is a four months long competition organized by Dassault Systemes, the goal is to keep the robot standing on his feet and make him able to resist small disturbances such as pats/slaps. To implement a control law, we are allowed to use the famous 3D printed robot Poppy which is proportionally sized like a human. We have access to the robot’s ankles and hips which are equipped with servo-motors, thus we may consider an analogy with the double reverse pendulum. poppy-robot-pendulum Poppy robot – model Equation Equation of the double reverse pendulum’s dynamic M is the mass matrix - C corresponds to the Coriolis terms - g represents gravity τ is the motors' torque vector - q=\[α1,α2] matches with hips and ankles angles As it appears on the figure above, we need to keep our angles set on π/2 to stand straight in this plane problem. To achieve the challenge, we can monitor our motors’ torques and get their position as a feedback.
 
-![Poppy robot](https://nicolas-robotics-portfolio.netlify.app/static/3bb42340d38c081ab944dbb58a067749/00179/System.jpg)
+![Poppy robot](/assets/system.jpg)
 
 ## Control law
 
@@ -37,7 +37,5 @@ Dassault Systemes shared the 3DExperience with us. It is a tool designed to answ
 We used it to implement the LQ control law we designed on Matlab. Then we had access to the robot through the software and we were able to test our automatic control in real time on Poppy. To avoid any injury during the tests, Poppy’s feet were fixed and his chest had a safety cord. You can find the results of my winning team here :
 
 [demonstration](https://www.youtube.com/watch?v=FKjoO8wzzus&feature=emb_title&ab_channel=NicolasBrissonneau)
-
-
 
 <!--EndFragment-->
