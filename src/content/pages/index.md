@@ -2,7 +2,7 @@
 template: index-page
 slug: /
 title: Nico & Robots
-tagline: Robotics Engineering
+tagline: Robotics Engineer
 featuredImage: /assets/og_nico_exo.jpg
 cta:
   ctaText: Know more
