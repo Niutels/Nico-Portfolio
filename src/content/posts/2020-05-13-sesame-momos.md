@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: AI
+title: Machine Learning
 slug: /machine_learning
 date: 2020-05-31 10:24
 description: machine learning class projects
