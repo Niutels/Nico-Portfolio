@@ -53,7 +53,9 @@ For “classical” applications such as wheeled robots you can configure it at 
 
 ![Measurement equation](/assets/eq_output.gif)
 
-Where x is a state vector, y is the output vector and u is the control vector. In this case y represents our motors inputs, u includes D and α, and x may correspond to y and other variables you want to estimate in your model. However if you are not familiar with State Feedbacks, you can also implement a simple feedback loop with an adjusted proportional gain, it will already work just fine but you will still have to regulate the weighting between the distance factor D and the orientation factor α depending on your system performances against it. Here is an example of a line tracking establishment I achieved at AKEOPLUS:
+Where *x* is a state vector, *y* is the output vector and *u* is the control vector. In this case u represents our motors input commands and *y* is the difference between the desired and measured orientation and distance. 
+
+However if you are not familiar with State Feedbacks, you can also implement a simple feedback loop with an adjusted proportional and a derivative gain, it will already work just fine but you will still have to regulate the weighting between the distance factor D and the orientation factor α depending on your system performances against it. Here is an example of a line tracking establishment I achieved at AKEOPLUS:
 
 [Akeomotion demo](https://www.youtube.com/embed/htx5c2Kiee0)
 
