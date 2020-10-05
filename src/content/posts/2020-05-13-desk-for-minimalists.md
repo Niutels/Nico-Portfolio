@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: the Iron Man suit is happening
-slug: /ironman
+slug: /exoskeleton
 date: 2019-04-20 22:39
 description: ironman
 featuredImage: /assets/exo.png
