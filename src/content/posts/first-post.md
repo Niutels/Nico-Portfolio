@@ -10,7 +10,7 @@ featuredImage: /assets/akeomotion.jpg
 
 # Line tracking for a moving robot
 
-![AGV](/assets/akeomotion.jpg)
+![](/assets/akeomotion.jpg)
 
 ## Why line tracking ?
 
@@ -20,18 +20,18 @@ Here we are going to learn how to use a camera to follow a line drawn on the flo
 
 * Step 1 : Get a picture
 
-  ![AGV](/assets/lt1.png)
+  ![Simple line picture](/assets/lt1.png)
 * Step 2 : Get access to the RGB data
 
-  ![AGV](/assets/lt2.png)
+  ![Identified line](/assets/lt2.png)
 * Step 3 : Get the coordinates of the pixels
 
-  ![AGV](/assets/lt3.png)
+  ![Locate line](/assets/lt3.png)
 
-  ![AGV](/assets/lt4.png)
+  Unfortunately, it is unlikely that a single RGB value will fit the camera data, don't forget to use a threshold tolerance to make sure you get at least 95% of the line.
 * Step 4 : See the line
 
-  ![AGV](/assets/lt5.png)
+  ![fit 2d line equation](/assets/lt5.png)
 * ## Track the line
 * Step 1 : Define what you are looking for
 * Step 2 : Implement automatic control
