@@ -20,9 +20,13 @@ Initially solely standing for "Robot Soccer World Cup" in 1996, the RoboCup is b
 
 In 2017, the competition took place in Nagoya, Japan, where 50 countries were represented and a total of 500 participants were distributed between the existing leagues, each competing for first place in their own field! Below is a proud picture of our team, UT Austin Villa!
 
-![](/assets/hsr.jpg)
+#### Working on the Human Support Robot (HSR)
 
-#### My role
+
+
+![HSR](/assets/hsr.jpg)
+
+Please find below a report summarizing my effort in providing tools to HSR to better understand its environment, and thus interact more efficiently with it.
 
 [Report](https://www.dropbox.com/s/xb7wpd72bk2970j/Article%20Nicolas%20Brissonneau.pdf?dl=0)
 
