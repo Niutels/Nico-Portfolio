@@ -18,7 +18,7 @@ The Poppy Challenge is a four months long competition organized by Dassault Syst
 
 ![](/assets/dynamics_equation.jpg)
 
-With M the mass matrix - C corresponds to the Coriolis terms - g represents gravity τ is the motors' torque vector - q=\[α1,α2] matches with hips and ankles angles As it appears on the figure above, we need to keep our angles set on π/2 to stand straight in this plane problem. To achieve the challenge, we can monitor our motors’ torques and get their position as a feedback.
+With M the mass matrix - C corresponds to the Coriolis terms - g represents gravity τ is the motors' torque vector - θ=\[q1,q2] matches with hips and ankles angles As it appears on the figure above, we need to keep our angles set on π/2 to stand straight in this plane problem. To achieve the challenge, we can monitor our motors’ torques and get their position as a feedback.
 
 ![Poppy robot](/assets/system.jpg)
 
