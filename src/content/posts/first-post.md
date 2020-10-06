@@ -33,7 +33,6 @@ Here we are going to learn how to use a camera to follow a line drawn on the flo
 
   ![fit 2d line equation](/assets/lt5.png)
 
-  ## \
   Track the line
 * Step 1 : Define what you are looking for, usually. Usually, you need to follow the line straight, which means you want to keep the line centered and vertical. In order to regulate it you will need:
 
