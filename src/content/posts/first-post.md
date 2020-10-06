@@ -38,19 +38,19 @@ Here we are going to learn how to use a camera to follow a line drawn on the flo
 
   * The distance between the line and the center of the screen D.
 
-    ![](/assets/eq_distance.gif)
+    ![](/assets/distance_jpg.jpg)
   * The orientation of the line α
 
-    ![](/assets/eq_orientation.gif)
+    ![](/assets/orientation_jpg.jpg)
 * Step 2 : Implement automatic control
 
 Depending on your robot/vehicle, you will need to implement different automatic controls to monitor your motors. 
 
 For “classical” applications such as wheeled robots you can configure it at low speed by implementing a **Full State Feedback** if you can model your system and get the following **State space equations**. The **LQ controller** fits particularly well here.
 
-![State equation](/assets/eq_states.gif)
+![State equation](/assets/state_jpg.jpg)
 
-![Measurement equation](/assets/eq_output.gif)
+![Measurement equation](/assets/output_jpg.jpg)
 
 Where *x* is a state vector, *y* is the output vector and *u* is the control vector. In this case u represents our motors input commands and *y* is the difference between the desired and measured orientation and distance. 
 
