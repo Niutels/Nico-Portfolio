@@ -14,7 +14,11 @@ featuredImage: /assets/open-source_3d_printed_poppy_humanoid_robot.jpg
 
 ## What kind of challenge is it ?
 
-The Poppy Challenge is a four months long competition organized by Dassault Systemes, the goal is to keep the robot standing on his feet and make him able to resist small disturbances such as pats/slaps. To implement a control law, we are allowed to use the famous 3D printed robot Poppy which is proportionally sized like a human. We have access to the robot’s ankles and hips which are equipped with servo-motors, thus we may consider an analogy with the double reverse pendulum. poppy-robot-pendulum Poppy robot – model Equation Equation of the double reverse pendulum’s dynamic M is the mass matrix - C corresponds to the Coriolis terms - g represents gravity τ is the motors' torque vector - q=\[α1,α2] matches with hips and ankles angles As it appears on the figure above, we need to keep our angles set on π/2 to stand straight in this plane problem. To achieve the challenge, we can monitor our motors’ torques and get their position as a feedback.
+The Poppy Challenge is a four months long competition organized by Dassault Systemes, the goal is to keep the robot standing on his feet and make him able to resist small disturbances such as pats/slaps. To implement a control law, we are allowed to use the famous 3D printed robot Poppy which is proportionally sized like a human. We have access to the robot’s ankles and hips which are equipped with servo-motors, thus we may consider an analogy with the double reverse pendulum. 
+
+![](/assets/dynamics_equation.gif)
+
+With M the mass matrix - C corresponds to the Coriolis terms - g represents gravity τ is the motors' torque vector - q=\[α1,α2] matches with hips and ankles angles As it appears on the figure above, we need to keep our angles set on π/2 to stand straight in this plane problem. To achieve the challenge, we can monitor our motors’ torques and get their position as a feedback.
 
 ![Poppy robot](/assets/system.jpg)
 
