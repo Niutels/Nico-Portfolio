@@ -32,7 +32,7 @@ Please find below a report summarizing my effort in providing tools to HSR to be
 
 We finished 3rd place! That was an amazing team effort, loved every second of it!
 
-<https://www.youtube.com/watch?v=19GxZfZhyfM&feature=emb_title&ab_channel=UTHumanCenteredRoboticsLab>
+[Super cool video summarizing the effort](https://www.youtube.com/watch?v=19GxZfZhyfM&feature=emb_title&ab_channel=UTHumanCenteredRoboticsLab)
 
 ![](/assets/third_place.jpg)
 
