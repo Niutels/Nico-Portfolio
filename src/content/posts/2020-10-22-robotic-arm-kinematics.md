@@ -23,4 +23,4 @@ Some fundamental principles:
   ![](/assets/framesonlyxyz.jpg)
 * we can express a frame's pose in another frame's coordinate system
 
-![](/assets/panda_dofs.bmp)
+![](/assets/panda_dofs.jpg)
