@@ -3,7 +3,8 @@ template: blog-post
 title: Spray Painting Robot
 slug: /paintingrobot
 date: 2020-09-01 13:03
-description: Painting with a robot
+description: "Painting spray robot arm robotics handle manipulation end effector
+  simulation hardware kinematics joint space "
 featuredImage: /assets/demonstration.png
 ---
 <!--StartFragment-->
