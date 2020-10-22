@@ -3,7 +3,8 @@ template: blog-post
 title: the Iron Man suit is happening
 slug: /exoskeleton
 date: 2019-04-20 22:39
-description: ironman
+description: exoskeleton ironman robot wbc whole body control hardware robotics
+  enhance human
 featuredImage: /assets/exo.png
 ---
 <!--StartFragment-->
