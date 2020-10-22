@@ -3,7 +3,7 @@ template: blog-post
 title: Autonomously Guided Vehicle
 slug: /AGV
 date: 2015-11-21 18:35
-description: Controlling an AGV
+description: Simple control of an Autonomously Guided Vehicle (AGV)
 featuredImage: /assets/akeomotion.jpg
 ---
 <!--StartFragment-->
