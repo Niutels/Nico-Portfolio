@@ -3,9 +3,9 @@ template: blog-post
 title: Machine Learning
 slug: /machine_learning
 date: 2020-05-31 10:24
-description: "machine learning class projects neural network q learning
-  q-learning gaussian process independent components analysis ICA principal
-  components analysis PCA backpropagation nearest neighbours "
+description: "machine learning applications: Neural Network backpropagation,
+  Q-learning, Gaussian Process, Independent Components Analysis (ICA), Principal
+  Components Analysis (PCA), Nearest Neighbors "
 featuredImage: /assets/dreamer.jpg
 ---
 <!--StartFragment-->
