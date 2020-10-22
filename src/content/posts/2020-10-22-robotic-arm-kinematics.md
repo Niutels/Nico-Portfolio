@@ -4,7 +4,7 @@ title: Robotic arm kinematics
 slug: robotic_arm
 date: 2020-05-15 10:08
 description: Robotic arm manipulator moving kinematics panda tracking
-featuredImage: /assets/moving_a.gif
+featuredImage: /assets/panda_robot.jpg
 ---
 # Tracking a point in Cartesian space
 
