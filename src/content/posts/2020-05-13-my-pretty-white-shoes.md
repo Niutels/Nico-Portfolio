@@ -3,8 +3,8 @@ template: blog-post
 title: RoboCup
 slug: /robocup
 date: 2017-08-30 15:26
-description: "International Robotics Competition robocup manipulation perception
-  navigation HSR human support robot austinvilla UT "
+description: International Robotics Competition robocup manipulation perception
+  navigation HSR human support robot austinvilla UT simulation hardware gazebo
 featuredImage: /assets/nico_robocup.jpg
 ---
 <!--StartFragment-->
