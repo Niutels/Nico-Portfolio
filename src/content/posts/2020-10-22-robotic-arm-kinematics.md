@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: Robotic arm kinematics
+title: Robotic arm kinematics - Draft
 slug: robotic_arm
 date: 2020-05-15 10:08
 description: Robotic arm manipulator moving kinematics panda tracking
