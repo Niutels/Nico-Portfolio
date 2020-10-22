@@ -3,8 +3,7 @@ template: blog-post
 title: Spray Painting Robot
 slug: /paintingrobot
 date: 2020-09-01 13:03
-description: "Painting spray robot arm robotics handle manipulation end effector
-  simulation hardware kinematics joint space "
+description: Painting spray used by a robotic arm both in simulation and hardware
 featuredImage: /assets/demonstration.png
 ---
 <!--StartFragment-->
