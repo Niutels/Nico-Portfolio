@@ -3,7 +3,9 @@ template: blog-post
 title: Dassault's Poppy Challenge
 slug: /poppy_robot
 date: 2016-06-11 15:31
-description: A Dassault competition for standing humanoid robots
+description: A Dassault competition for standing humanoid robots robotics poppy
+  3d print control pendulum reverse torque matlab solidworks catia 3dexperience
+  3ds control law PID LQ hardware simulation
 featuredImage: /assets/open-source_3d_printed_poppy_humanoid_robot.jpg
 ---
 <!--StartFragment-->
