@@ -3,7 +3,7 @@ template: blog-post
 title: Designing a Series Elastic Actuator
 slug: /sea
 date: 2015-05-24 20:41
-description: design of an SEA
+description: design of a Series Elastic Actuator (SEA) for farming applications
 featuredImage: /assets/pulley-system.jpg
 ---
 <!--StartFragment-->
