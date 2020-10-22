@@ -3,7 +3,9 @@ template: blog-post
 title: Smart Pen
 slug: /smartpen
 date: 2016-03-20 21:15
-description: A pen which can guess what you're handwriting in 3d
+description: "A pen which can guess handwriting in 3d dynamic time warping DTW
+  IMU inertial measurement unit kalman filter sensor fusion pose acceleration
+  matlab low pass filter "
 featuredImage: /assets/smart_pen.png
 ---
 <!--StartFragment-->
