@@ -3,8 +3,7 @@ template: blog-post
 title: the Iron Man suit is happening
 slug: /exoskeleton
 date: 2019-04-20 22:39
-description: exoskeleton ironman robot wbc whole body control hardware robotics
-  enhance human
+description: Principal components of an exoskeleton and what it means to control it
 featuredImage: /assets/exo.png
 ---
 <!--StartFragment-->
