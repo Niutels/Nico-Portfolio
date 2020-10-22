@@ -3,9 +3,8 @@ template: blog-post
 title: Smart Pen
 slug: /smartpen
 date: 2016-03-20 21:15
-description: "A pen which can guess handwriting in 3d dynamic time warping DTW
-  IMU inertial measurement unit kalman filter sensor fusion pose acceleration
-  matlab low pass filter "
+description: "3d handwriting recognition through Dynamic Time Warping, Data
+  Filtering and Sensor Fusion "
 featuredImage: /assets/smart_pen.png
 ---
 <!--StartFragment-->
