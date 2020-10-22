@@ -10,7 +10,7 @@ featuredImage: /assets/panda_image.jpg
 
 Here is what we are going to achieve in this post, we're going to move a highly-articulated robotic arm such that its end-effector goes where we want it to go! In the gif below you can find a representation in Matlab of the Panda robot, with its different joints, and we find configurations such that its 'tip', the end-effector, follows the red ball.
 
-![](/assets/part_a.gif)
+![](/assets/redundancy_resolution.gif)
 
 # Starting with the beginning
 
