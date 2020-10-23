@@ -19,8 +19,8 @@ Some fundamental principles:
 * a robot is composed of multiple links (bodies) which are moving with respect to each other
 * we know that an individual link can not move with respect to itself (whatever two points you chose on a body, the distance between them won't change when you move the body around) 
 * each link's pose (its position and orientation in space) can be represented through a frame, a frame can be understood as a coordinate system as shown below 
+* we can express a frame A's world pose with respect to another frame B's coordinate system
 
   ![](/assets/framesonlyxyz.jpg)
-* we can express a frame's pose in another frame's coordinate system
 
 ![](/assets/panda_dofs.jpg)
