@@ -22,7 +22,3 @@ Some fundamental principles:
 * we can express a frame A's world pose with respect to another frame B's coordinate system
 
   ![](/assets/framesonlyxyz.jpg)
-
-
-
-![](/assets/panda_dofs.jpg)
