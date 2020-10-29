@@ -24,3 +24,5 @@ Some fundamental principles:
   ![](/assets/framesonlyxyz.jpg)
 
 ![](/assets/panda_dofs.jpg)
+
+![](/assets/panda_dofs.jpg)
